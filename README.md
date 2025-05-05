@@ -138,3 +138,4 @@ São estruturas usadas em sistemas distribuídos para armazenar mensagens ou req
 
 **Fan out:**\
 Padrão onde uma mensagem publicada por um único componente é distribuída simultaneamente para vários consumidores ou serviços diferentes. É muito usado em arquiteturas orientadas a eventos para escalar processamento paralelo e desacoplar sistemas.
+

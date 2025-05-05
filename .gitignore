@@ -46,6 +46,7 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.coveragerc
+*.codecov.yml
 
 # Translations
 *.mo
@@ -55,6 +56,7 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -82,22 +84,29 @@ ipython_config.py
 # celery beat schedule file
 celerybeat-schedule
 
-# dotenv
+# SageMath parsed files
+*.sage.py
+
+# Environments
 .env
 .venv
-
-# virtualenv
+env/
 venv/
 ENV/
-env/
+env.bak/
 venv.bak/
+.vscode/
+
 
 # Spyder project settings
 .spyderproject
-.spyproject
+.spyderworkspace
 
 # Rope project settings
 .ropeproject
+
+# mkdocs documentation
+/site
 
 # mypy
 .mypy_cache/
@@ -107,4 +116,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-.vscode/
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/

@@ -24,6 +24,6 @@ def create_s3_bucket(bucket_name, region=None):
 
 # Example usage
 if __name__ == "__main__":
-    bucket_name = "walter10111980"
+    bucket_name = "rafael19032004"
     region = "sa-east-1"  # Altere para a região desejada
     create_s3_bucket(bucket_name, region)
