@@ -109,7 +109,7 @@ Autorização\
     Principio do privilégio mínimo: Conceder apenas o minimo de acesso necessário para uma função.\
     Começar com o minimo de permissões, adicionar permissões apenas em casos necessários. 
     
-# USE CRIPTOGRAFIA!!!!
+## USE CRIPTOGRAFIA!!!!
 
 
 ## Aula 13/03/2025
@@ -378,5 +378,35 @@ DynamoDB.\
     
     Subnet publica: Os recursos dentro dela estão viziveis pra internet.\
     Criar regra de saída para internet gatway.\
-    Endereço que estiver conectado ao internet gateway deve ter um endereço publico.\
+    Endereço que estiver conectado ao internet gateway deve ter um endereço publico.
+
+## Aula 08/05/2025
+
+    toda maquina tm 2 tipos de ips, privados e publicos, e os publicos a aws so disponibiliza 5 por região.\
+    
+    subnet privada: 
+        não tem acesso, nem é accessada pela internet, é boa para bancos de dados.\
+    
+    lembrar da entreda para permitir a saida.\
+    
+    Camadas dde segurança AWS.\
+    Security Group: firewall que se configura quando cria um servidor AWS.\
+    Network ACL: é implementado na tecnologia de redes da AWS, é um firewall de subnet.\
+    Necessário criar regra de entreda e saida, pois não lembra.\
+
+    Network Firewall.\
+    Servidor de firewall que pode subir em uam subnet propria, onde se pode controlar regras de
+    entrada e saída de internet.
+
+    VPC endpoint: cria uma placa de rede virtual dentro da sua rede, criando um tunel dentro da AWS 
+    conectando no s3 por um ip privado
+
+    Gateway VPC endpoint: só de conecta com dois serviços, ou com o s3 ou com o dynamodb
+
+    Load Balancer: serve para não precisar expor as maquinas na internet, ai ele fica exposto, 
+    e depois redireciona para as maquinas
+
+    Gateway Load Balancer endpoint:  serve apenas caso você não queria utilizar o load balancer da aws, deixando esse novo load balancer que você comprou exposto para a internet, é um load balancer de um load balancer
+
+    Amazon VPC flow logs: é oque monitora as redes das maquinas, para ver se elas estão conversando uma com a outra corretamente
     
