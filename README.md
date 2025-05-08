@@ -409,4 +409,3 @@ DynamoDB.\
     Gateway Load Balancer endpoint:  serve apenas caso você não queria utilizar o load balancer da aws, deixando esse novo load balancer que você comprou exposto para a internet, é um load balancer de um load balancer
 
     Amazon VPC flow logs: é oque monitora as redes das maquinas, para ver se elas estão conversando uma com a outra corretamente
-    
