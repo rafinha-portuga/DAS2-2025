@@ -411,6 +411,20 @@ DynamoDB.\
     Amazon VPC flow logs: é oque monitora as redes das maquinas, para ver se elas estão conversando uma com a outra corretamente
 
 
-## Aula 12/05/2025
+## Aula 19/05/2025
 
-    
+    rede: é um isolador
+        full mech: tudo fala com tudo, não pode ter colisão entre VPCs
+        shared VPC(hub-and-spoke): você tem uma VPC principal(hub), e tem as spokes que falam com o hub
+
+    AWS Transit Gateway: é um gerenciador central, centraliza as redes VPC, e se custo é por dados processados,
+    ele é um serviço regional, e consegue conectar 5 mil attachments(5mil coisas)
+
+    Transit gateway peering: conecta mais de 1 transit gateway
+
+    VPC peering: ele conecta VPCs uma na outra, mais simples que o transit gateway
+
+    Connection site to site VPN.
+    Conexão de 2 pontos por VPN.
+    Direct connection.
+    Conexão exclusiva literal, não passa pela internet publica.
