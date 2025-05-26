@@ -428,3 +428,17 @@ DynamoDB.\
     Conexão de 2 pontos por VPN.
     Direct connection.
     Conexão exclusiva literal, não passa pela internet publica.
+
+
+## Aula 26/05/2025
+
+    IAM Groups: criar um role para associar todas as permissões que as pessoas desse grupo devem ter, e depois vincular essas pessoas ao grupo.
+    ele sempre vai dar prioridade para negar o acesso, ex: caso tenha 20000 mil acessos e um "deny" ele vai perder seus acessos
+
+    RBAC - Role Base Access Control.
+    Concedar permissão para os usuarios através de roles para melhor controle de quem acessa oque.
+    Toda vez que um usuário assume uma role, ele recebe uma credencial nova e temporária.
+    Ao terminas o prazo, pode-se assumir a role novamente, porém a credencial irá ser diferente
+
+    AWS Cognito.
+    Ele permite acesso usando conta de outras plataformas
