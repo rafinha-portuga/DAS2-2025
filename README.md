@@ -442,3 +442,27 @@ DynamoDB.\
 
     AWS Cognito.
     Ele permite acesso usando conta de outras plataformas
+
+
+## Aula 29/05/2025
+
+    Iriamos criar um Cognito para cirar uma autenticação java
+
+    User pool: banco de dados de usuarios e senhas, independente da linguagem, ao invés de ter uma tela de login por exemplo em java, ele leva lá para a aws verifica e depois retorna a resposta, ele faz a autenticação da aplicação, e também a atutenticação para que o seu software se comunique com a AWS
+
+    AWS Organization: serviso da aws que permite você gerenciar multiplas contas usando uma extrutura ierarquica, e você ganha desconto por volume
+
+    service control polices: politicas de governanca da tua conta da aws, por exemplo se eu tenho carteira de abilitação, mas a policia me impede de dirigir babado, ou seja ela faz a governancia, eu posso dirigir, mas a policia não me deixa dirigir bebado, no caso ela limita de fazer algo fora dela
+
+    Police de limite não dão permissão
+    Police de grant dão permissão
+
+    Criptografia simetrica: tem uma chave só para criptografar e descriptografar
+    Criptografia asimetrica: tem duas chaves uma para criptografar e outra para descriptografar
+
+    Server side encryption: criptografia dentro da nuvem
+
+    AWS Key Management Service(AWS KMS): cofre de chaves e ferrameta de criptografia padrão da AWS, e é baseada em software
+    HSMs: igual ao KMS mas as chaves ficam em um servidor fisico ao invés da nuvem
+
+    Amazon Detective: detecta comportamentos estranhos na sua conta
