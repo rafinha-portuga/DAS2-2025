@@ -466,3 +466,15 @@ DynamoDB.\
     HSMs: igual ao KMS mas as chaves ficam em um servidor fisico ao invés da nuvem
 
     Amazon Detective: detecta comportamentos estranhos na sua conta
+
+
+## Aula 02/06/2026
+
+    Monitoramento de recursos
+        motivos de implementação: saude operacional, utilização de recursos, performance da aplicação, segurança
+
+    CloudWatch: coleta métricas de serviços AWS atraves de regiões em um repositório de métrica, coleta logs, métricas são gratuitas, logs são pagos, pode criar alarmes para avisar sobre limites atingidos
+
+    EventBridge: barramento de eventos, jeito de monitorar a AWS em tempo real
+
+    Custos: cost explorer
