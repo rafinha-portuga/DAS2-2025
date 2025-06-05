@@ -468,7 +468,7 @@ DynamoDB.\
     Amazon Detective: detecta comportamentos estranhos na sua conta
 
 
-## Aula 02/06/2026
+## Aula 02/06/2025
 
     Monitoramento de recursos
         motivos de implementação: saude operacional, utilização de recursos, performance da aplicação, segurança
@@ -478,3 +478,8 @@ DynamoDB.\
     EventBridge: barramento de eventos, jeito de monitorar a AWS em tempo real
 
     Custos: cost explorer
+
+
+## Aula 05/06/2025
+
+    Auto Scaling: scala baseada na data e tempo, é para cargas de trabalho previsíveis, scala baseada em métricas rastreadas, é para cargas de trabalho moderadamente intensas
