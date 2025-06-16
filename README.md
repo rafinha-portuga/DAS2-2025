@@ -483,3 +483,31 @@ DynamoDB.\
 ## Aula 05/06/2025
 
     Auto Scaling: scala baseada na data e tempo, é para cargas de trabalho previsíveis, scala baseada em métricas rastreadas, é para cargas de trabalho moderadamente intensas
+
+
+## Aula 16/06/2025
+
+    Scaling AWS databases
+    Escalando um cluster de Aurora: escala verticalmente mudando o tamanho da instancia de aurora, escala horisontalmente usando aurora auto scaling para gerenciar a leitura de números de replicas
+
+
+    Load Balance: distribui trafego entre multiplos alvos em um ou mais zonas abitaveis, pode receber trafego publico ou privado, verifica a saude das maquinas antes de mandar a requisição, scala automático. 
+
+    4 tipos de load balancer: 
+        o load balancer classico, você pode usar, mas ele não é mais indicado;
+        application load balancer: camada 7, é o mais utilizado, diferencia produto de cliente;
+        network load balancer: usar tls offloading diferencia tcp de udp, é o segundo mais utilizado;
+        gateway load balancer: é para quando você não quer utilizar o load balancer da AWS;
+
+    Load Balancer Componentc: 
+    TLS Certificate: são de graça, mas tem que renovar a cada 3 meses
+
+    DNS lookups: 
+
+    Route 53: um servidor de dns que traduz seu dominio para uma hosted zones, ele tem SLA 100%, pode monitorar dcloudwatch alarms, suporta multiplas rotas
+
+    AAAA IPCV6
+    CNAME: é uma entrada no sistema de nomes de domínio (DNS) que mapeia um nome de dominio (um alias) para outro nome de dominio (o nome canonico ou verdadeiro)
+    TXT: prova que você é dono de um DNS
+    MX
+    NS: e-mail
