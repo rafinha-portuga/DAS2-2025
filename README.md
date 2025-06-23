@@ -511,3 +511,16 @@ DynamoDB.\
     TXT: prova que você é dono de um DNS
     MX
     NS: e-mail
+
+
+## Aula 23/06/2025
+
+    CloudFormation: serviso aws permite que você fassa criação, atualização e exclusão de recursos de forma automatizada, posso criar arquivo "YAML"(usa mesma ideia do python, ele precisa de identação, mas tem menos texto) e arquivo "JSON"(mais verboso e mais fácil de escrever)
+
+    Drift detection: permite que você identifique discrepâncias entre o estado atual dos seus recursos AWS implantados e o estado esperado, conforme definido nos seus modelos do CloudFormation
+
+    AWS Quick Start: acelerador de criação de produtos e servisos
+
+    Cache content: sempre que precisar melhorar a performance do banco, se usa cache por exemplo;
+        ElastiCache: geralmente mais utilizado para banco, se coloca na frente do banco de dados para entregar mais rápido
+        CloudFront: clocar na frente do site para entregar recursos mais rápidos, na frente do LoadBalancer
