@@ -524,3 +524,18 @@ DynamoDB.\
     Cache content: sempre que precisar melhorar a performance do banco, se usa cache por exemplo;
         ElastiCache: geralmente mais utilizado para banco, se coloca na frente do banco de dados para entregar mais rápido
         CloudFront: clocar na frente do site para entregar recursos mais rápidos, na frente do LoadBalancer
+
+
+## Aula 26/06/2025
+
+    Para reduzir problema de acoplamento entre as camadas da aplicação, pode ser utilizado load balancer entre as camadas
+
+    Outra maneira de melhorar a aplicação, ao invés de você ter um monolito, é bom você modularizar a sua aplicação, aumentando a resiliencia e reduzindo problema de acoplamento, exemplo ideal, seria aplicar a arquitetura de microserviços
+
+    Amazon SQS: serviço de filas
+    Amazon SNS: serviço de tópicos
+    Amazon MQ: serviço que possui tanto filas quanto tópicos
+
+    Short Polling vs Long Polling: tempo de busca de fila, impacta no seu custo
+
+    (👉ﾟヮﾟ)👉    👈(⌒▽⌒)👉    👈(ﾟヮﾟ👈)
